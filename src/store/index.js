@@ -39,8 +39,6 @@ export default new Vuex.Store({
                 'Bearer ' + this.state.token;
         },
         setRole(state, roles) {
-            console.log(roles, 'roles');
-
             if (!roles.length) {
                 console.error('Error with rolse');
 
