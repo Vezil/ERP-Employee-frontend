@@ -218,7 +218,7 @@ import ContractsServices from '../../services/ContractsService';
 import HolidaysServices from '../../services/HolidaysService';
 
 export default {
-    name: 'Holidays',
+    name: 'holidays',
     data() {
         return {
             holidays: [],

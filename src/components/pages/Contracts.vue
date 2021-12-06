@@ -233,7 +233,7 @@ import EmployeesServices from '../../services/EmployeesService';
 import ContractsServices from '../../services/ContractsService';
 
 export default {
-    name: 'Contracts',
+    name: 'contracts',
     data() {
         return {
             contracts: [],

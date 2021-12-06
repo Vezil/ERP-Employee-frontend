@@ -15,7 +15,7 @@ import { store } from '../../store';
 import EmployeesServices from '../../services/EmployeesService';
 
 export default {
-    name: 'employeedashboard',
+    name: 'employee-dashboard',
 
     data() {
         return { holidays_user: [] };

@@ -72,21 +72,21 @@ const routes = [
         beforeEnter: (to, from, next) => verifyAdmin(to, from, next)
     },
     {
-        path: '/holidaysRequests',
+        path: '/holidays-requests',
         component: HolidaysRequests,
-        name: 'holidaysrequests',
+        name: 'holidays-requests',
         beforeEnter: (to, from, next) => verifyUser(to, from, next)
     },
     {
-        path: '/holidaysConfirmed',
+        path: '/holidays-confirmed',
         component: HolidaysConfirmed,
-        name: 'holidaysconfirmed',
+        name: 'holidays-confirmed',
         beforeEnter: (to, from, next) => verifyUser(to, from, next)
     },
     {
-        path: '/changePassword',
+        path: '/change-password',
         component: ChangePassword,
-        name: 'changePassword',
+        name: 'change-password',
         beforeEnter: (to, from, next) => verifyToken(to, from, next)
     },
     {

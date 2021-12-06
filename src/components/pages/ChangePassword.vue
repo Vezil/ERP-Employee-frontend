@@ -67,7 +67,7 @@
 import ChangePasswordService from '../../services/ChangePasswordService';
 
 export default {
-    name: 'ChangePassword',
+    name: 'change-password',
 
     data() {
         return {

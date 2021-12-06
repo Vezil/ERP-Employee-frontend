@@ -191,7 +191,7 @@ import HolidaysForUserServices from '../../services/HolidaysForUserService';
 import { store } from '../../store';
 
 export default {
-    name: 'holidaysrequests',
+    name: 'holidays-requests',
     data() {
         return {
             holidaysUser: [],

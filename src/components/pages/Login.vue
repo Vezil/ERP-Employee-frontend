@@ -54,7 +54,7 @@
 import AuthenticationService from '../../services/AuthenticationService';
 
 export default {
-    name: 'Login',
+    name: 'login',
     data() {
         return {
             emailRules: [

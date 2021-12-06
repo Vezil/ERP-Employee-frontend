@@ -1,11 +1,11 @@
 <template>
     <v-app class="grey">
         <Navbar />
-        <v-content>
+        <v-main>
             <transition name="router-anim" enter-active-class="animated pulse">
                 <router-view />
             </transition>
-        </v-content>
+        </v-main>
     </v-app>
 </template>
 

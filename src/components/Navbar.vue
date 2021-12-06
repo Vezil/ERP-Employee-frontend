@@ -19,7 +19,7 @@
                         !$store.state.isLoggedInAsUser &&
                             !$store.state.isLoggedInAsAdmin
                     "
-                    to="Login"
+                    to="/login"
                 >
                     <v-list-item class="menu_el">
                         <v-list-item-action>
@@ -35,7 +35,7 @@
                 </router-link>
                 <router-link
                     v-if="$store.state.isLoggedInAsAdmin"
-                    to="Contracts"
+                    to="/contracts"
                 >
                     <v-list-item class="menu_el">
                         <v-list-item-action>
@@ -51,7 +51,7 @@
                 </router-link>
                 <router-link
                     v-if="$store.state.isLoggedInAsAdmin"
-                    to="Holidays"
+                    to="/holidays"
                 >
                     <v-list-item class="menu_el">
                         <v-list-item-action>
@@ -67,7 +67,7 @@
                 </router-link>
                 <router-link
                     v-if="$store.state.isLoggedInAsUser"
-                    to="HolidaysRequests"
+                    to="/holidays-requests"
                 >
                     <v-list-item class="menu_el">
                         <v-list-item-action>
@@ -83,7 +83,7 @@
                 </router-link>
                 <router-link
                     v-if="$store.state.isLoggedInAsUser"
-                    to="HolidaysConfirmed"
+                    to="/holidays-confirmed"
                 >
                     <v-list-item class="menu_el">
                         <v-list-item-action>
@@ -102,7 +102,7 @@
                         $store.state.isLoggedInAsUser ||
                             $store.state.isLoggedInAsAdmin
                     "
-                    to="ChangePassword"
+                    to="/change-password"
                 >
                     <v-list-item class="menu_el">
                         <v-list-item-action>
@@ -123,7 +123,7 @@
                         $store.state.isLoggedInAsUser ||
                             $store.state.isLoggedInAsAdmin
                     "
-                    to="Logout"
+                    to="/logout"
                 >
                     <v-list-item class="menu_el">
                         <v-list-item-action>
