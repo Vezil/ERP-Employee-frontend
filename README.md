@@ -1,29 +1,15 @@
-# client
+# ERP SYSTEM - FRONTEND
 
-## Project setup
-```
-npm install
-```
+Project created mainly in Vue/Node(express)/Sequelize/MySql. In this project, there are two roles. Admin (Employer) and User (Employee). As a Employee, you can request holidays, and change your password. As an Employer you can add Employees, add contracts, accept or deny vacations and reset password.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Test credentials for a user :
 
-### Compiles and minifies for production
-```
-npm run build
-```
+user@erp.test password
 
-### Run your tests
-```
-npm run test
-```
+## Test credentials for an admin :
 
-### Lints and fixes files
-```
-npm run lint
-```
+admin@erp.test password
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## BACKEND :
+
+https://github.com/Vezil/ERP-Employee-server
